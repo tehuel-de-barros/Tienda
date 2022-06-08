@@ -1,0 +1,275 @@
+html { 
+    font-size: 62.5%;
+
+}
+
+li { 
+    list-style:none;
+}
+
+a { 
+    text-decoration: none;
+}
+
+p { 
+    font-size: 2em;
+}
+
+:root {
+    /* colors fondo */
+    --principal:#171717;
+    --secundario:#FF680A;
+
+    /* colors letra */
+
+    --color:#000000;
+    --color-secundario:#4BB3FD;
+    --color-terciario:rgba(255, 30, 0, 0.332);
+
+    /* colors letra */
+
+    --tamaño-letra:4em;
+
+    /* tipo de letra */
+
+    --tipografia-principal:gadugib;
+    --tipografia-secundario:roboto; 
+
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--tipografia-principal);
+}
+
+header { 
+    display: flex;
+    align-items: center;
+    gap: 0.25em;
+    padding: 24px 120px;
+    background-color: var(--principal);
+    justify-content:space-between;
+}
+
+.menu input { 
+    display: flex;
+    list-style:none;
+    width: 505px; 
+    height: 50px;   
+}
+
+.date-extra {
+    font-size: var(--tamaño-letra);
+    color:var(--color-secundario);
+    text-decoration: none;
+}
+
+.navegation { 
+    background-color: var(--secundario);        
+    padding: 24px 120px;
+}
+
+.menu-second a { 
+    color:var(--color)
+}
+
+main{
+    background-color: var(--principal);
+}
+
+.title { 
+    font-size: 2em;
+    text-align: center;
+}
+
+.menu-second { 
+    display: grid;
+    grid-template-areas: 
+    "menu-second__item" "menu-second__item2" "menu-second__item3" "menu-second__item4";
+    grid-template-columns: 25vh 25vh 25vh 25vh;
+    grid-template-rows: 1fr ;
+    font-size: 3em;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hardware { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mouse { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.graphics { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cpu { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img { 
+    width:100%;
+}
+
+footer { 
+    background-color: var(--secundario);
+}
+
+.contactanos { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+.contactanos__link { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-creator p{ 
+    text-align: center;
+    font-size: 3em;
+}
+
+.ayuda { 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding:  24px 90px;
+    font-size: 1.7em;
+    gap: 1em;
+    }
+
+.inputs { 
+    padding:0 30px;
+}
+
+.info-arma-yu-pc { 
+    padding: 24px 120px;
+}
+
+.title-arma-tu-pc { 
+    text-align: center;
+    font-size: 3em;
+
+}
+
+.p-arma-tu-pc { 
+    font-size: 2.5em;
+    padding: 20px;
+    font-family: var(--tipografia-secundario);
+    color: aliceblue;
+}
+
+.carrito-pagar { 
+    text-align: center;
+    font-size: 3em;
+}
+
+.carrito-pagar a { 
+    color: var(--color-secundario);
+    padding: 10px 24px;
+}
+
+.carrito-info {  
+    text-align: center;
+    padding: 12px 0 12px 0;
+    font-size: 2em;
+    color: var(--color-terciario);
+}
+
+#sponsor-info__title { 
+    text-align: center;
+    font-size: 3.5em;
+}
+
+#sponsor-info__parrafo { 
+    text-align: center;
+    font-size: 2.4em;
+    padding: 8px 0 8px 0 ;
+    font-family: var(--tipografia-secundario);
+    color: aliceblue;
+}
+
+@media (max-width:1850px){
+    header {
+        flex-direction: column;
+    }
+}
+@media (max-width:1080px){
+    .hardware { 
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+    .menu-second { 
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width:655px){
+    .contactanos__img {
+        width: 100%;
+    }
+}
+
+@media (max-width:655px){ 
+    .menu input{ 
+        width: 310px;
+    }
+    .cpu__img { 
+        width: 100%;
+    }
+    .graphics__img { 
+        width: 100%;
+    }
+}
+
+@media (max-width:810px){
+    .ayuda  { 
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 0;
+    }
+}
+
+@media (max-width:450px) { 
+    .info-creator p{ 
+        text-align: center;
+        font-size: 2.3em;
+    }
+
+}
+
+
+@media (max-width:700px) { 
+    .info-arma-yu-pc { 
+        padding: 20px 0;
+    }
+}
+
+@media (max-width:400px)  {
+    .carrito-pagar a { 
+        font-size: 0.7em;
+    }
+}
+
+
