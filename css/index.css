@@ -11,6 +11,7 @@ a {
     text-decoration: none;
 }
 
+
 p { 
     font-size: 2em;
 }
@@ -42,6 +43,16 @@ p {
     padding: 0;
     font-family: var(--tipografia-principal);
 }
+nav ul li a:hover { 
+    color:white;
+    font-size: 1.2em;
+    
+}
+nav ul li a { 
+    transition-duration: 1.2s;
+    padding: 0 20px;
+}
+
 
 header { 
     display: flex;
@@ -60,9 +71,16 @@ header {
 }
 
 .date-extra {
+   
     font-size: var(--tamaño-letra);
     color:var(--color-secundario);
     text-decoration: none;
+    transition: 1.2s;
+
+}
+
+.date-extra:hover { 
+    font-size: 5em; 
 }
 
 .navegation { 
@@ -99,11 +117,20 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.hardware img {
+    transition-duration: 0.8s;
+}
+
+.hardware img:hover { 
+    transform: scale(1.05);
+}
+
 .mouse { 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1em;
 }
 
 .graphics { 
@@ -111,6 +138,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1em;
 }
 
 .cpu { 
@@ -118,6 +146,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1em;
 }
 
 .img { 
