@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/index.css">
     <link href="https://compragamer.net/assets/css/gadugib/stylesheet.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,30 +58,32 @@
         <section class="title">
             <h1>PRODUCTOS</h1>
         </section>
-        <section class="hardware">
-            <article class="mouse">
-                <p class="mouse__title">LOGI G PRO S</p>
-                <img class="mouse__img" src="../img/image16.png" alt="LOGI G PRO S" >
-                <p class="mouse__price">$13.900</p>
-            </article>
-            <article class="graphics">
-                <p class="graphics__title">RTX 2060 12GB</p>
-                <img class="graphics__img" src="../img/image19.png" alt="RTX 2060 12GB">
-                <p class="graphics__price">$95.000</p>
-            </article>
-            <article class="cpu">
-                <p class="cpu__title">I5 12400F GEN 12</p>
-                <img class="cpu__img" src="../img/image20.png" alt="I5 12400F GEN 12">
-                <p class="cpu__price">$28.000</p>
-            </article>
-        </section>
-        </section>
-            <div class="carrito-pagar">
-                <h2>Su carrito a pagar es de $138.286</h2>
-                <a href="#">Pagar</a> <a href="#">Cancelar orden</a>
-            </div>
-                <h3 class="carrito-info">Recuerde que puede pagar hasta 12 cuotas sin interes(Con el precio de lista que es de $150.000)</h3>
-        </section>
+        <div class="container-fluids">
+            <section class="hardware row">
+                <article class="mouse col d-flex flex-column justify-content-center align-items-center">
+                    <p class="mouse__title">LOGI G PRO S</p>
+                    <img class="mouse__img" src="../img/image16.png" alt="LOGI G PRO S" >
+                    <p class="mouse__price">$13.900</p>
+                </article>
+                <article class="graphics col d-flex flex-column justify-content-center align-items-center">
+                    <p class="graphics__title">RTX 2060 12GB</p>
+                    <img class="graphics__img" src="../img/image19.png" alt="RTX 2060 12GB">
+                    <p class="graphics__price">$95.000</p>
+                </article>
+                <article class="cpu col d-flex flex-column justify-content-center align-items-center">
+                    <p class="cpu__title">I5 12400F GEN 12</p>
+                    <img class="cpu__img" src="../img/image20.png" alt="I5 12400F GEN 12">
+                    <p class="cpu__price">$28.000</p>
+                </article>
+            </section>
+            </section>
+                <div class="carrito-pagar">
+                    <h2>Su carrito a pagar es de $138.286</h2>
+                    <a href="#">Pagar</a> <a href="#">Cancelar orden</a>
+                </div>
+                    <h3 class="carrito-info">Recuerde que puede pagar hasta 12 cuotas sin interes(Con el precio de lista que es de $150.000)</h3>
+            </section>
+        </div>
         <section>
             <article>
                 <img class="img" src="../img/image4.png" alt="12 cuotas sin interes">
@@ -91,6 +94,7 @@
         <h2 class="contactanos">CONTACTANOS</h2>
         <a class="contactanos__link" href="https://www.instagram.com/"><img class="contactanos__img" src="../img/image21.png" alt="contactanos"></a>
     </footer>
+    <script src="../JS/bootstrap.min.js"></script>
 </body>
 </html>
     
