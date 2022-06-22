@@ -1,0 +1,65 @@
+// main
+
+main{
+    background-color: $principal;
+
+    .navegation { 
+        background-color: $secundario;        
+        padding: 24px 120px;
+
+        .menu-second {
+            a { 
+                color:$color;
+            }
+
+            li {
+                a { 
+                    transition-duration: 1.2s;
+                    padding: 0 20px;
+                }
+                
+                & a:hover { 
+                    color:white;
+                    font-size: 1.2em; 
+                }
+            }
+
+             
+        }
+    }
+
+ .title   { 
+    font-size: 2em;
+    text-align: center;
+   color: $color;
+}
+
+.menu-second { 
+    display: grid;
+    grid-template-areas: 
+    "menu-second__item" "menu-second__item2" "menu-second__item3" "menu-second__item4";
+    grid-template-columns: 25vh 25vh 25vh 25vh;
+    grid-template-rows: 1fr ;
+    font-size: 3em;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hardware { 
+   color: $color;
+ 
+   img {
+    transition-duration: 0.8s;
+
+    &:hover { 
+        transform: scale(1.05);
+    }
+}
+
+}
+
+.img { 
+    width:100%;
+}
+
+}

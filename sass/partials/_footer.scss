@@ -1,0 +1,19 @@
+ // footer 
+
+ footer { 
+    background-color: $secundario;
+    
+    .contactanos { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3em;
+    }
+    
+    .contactanos__link { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

@@ -1,0 +1,25 @@
+// Modificacines especificas de cada pagina
+
+.carrito-pagar { 
+    text-align: center;
+    font-size: 3em;
+    color: $color;
+
+    a { 
+        color: $color-secundario;
+        padding: 10px 24px;
+        transition-duration: 0.8s;
+    }
+
+    & a:hover  {
+    color: white;
+    }
+    
+}
+
+.carrito-info {  
+    text-align: center;
+    padding: 12px 0 12px 0;
+    font-size: 2em;
+    color: $color-terciario;
+}

@@ -1,4 +1,40 @@
-@media (max-width:1850px){
+@media (max-width:1079px) { 
+         main {
+            nav { 
+                .menu-second { 
+                    display: flex;
+                    flex-wrap:wrap ;
+                }
+            }     
+    }
+ }
+
+ @media (max-width:550px) { 
+    header { 
+        nav { 
+            .menu { 
+               input { 
+                width: 200px;
+               }
+            }
+        }
+    }
+ }
+
+ @media (max-width:810px) { 
+    .ayuda-main #ayuda #inputs{   
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: 1em;
+    }
+  }
+
+
+
+
+
+  @media (max-width:1850px){
     header {
         flex-direction: column;
     }
@@ -64,3 +100,4 @@
     }
 }
 
+ 

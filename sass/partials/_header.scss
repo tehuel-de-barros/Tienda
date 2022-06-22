@@ -1,0 +1,30 @@
+// header
+header { 
+    display: flex;
+    align-items: center;
+    gap: 0.25em;
+    padding: 24px 120px;
+    background-color: $principal;
+    justify-content:space-between;
+
+.menu {
+    input { 
+        display: flex;
+        list-style:none;
+        width: 505px; 
+        height: 50px;   
+    }
+}
+
+.date-extra {
+    font-size: $tamaño-letra;
+    color: $color-secundario;
+    text-decoration: none;
+    transition: 1.2s;
+
+    &:hover { 
+        font-size: 5em; 
+    } 
+}
+
+}

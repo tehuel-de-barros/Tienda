@@ -1,3 +1,29 @@
+// Modificacines especificas de cada pagina
+
+.ayuda-main { 
+    color: $color;
+
+    .info-creator { 
+        p{ 
+        text-align: center;
+        font-size: 3em;
+        }
+    } 
+    
+    .ayuda { 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding:  24px 40px;
+        font-size: 1.7em;
+        gap: 1em;
+    
+        .inputs { 
+            padding:0 30px;
+        }
+        }
+}
+
 @media (max-width:1850px){
     header {
         flex-direction: column;
@@ -9,6 +35,18 @@
         flex-wrap: wrap;
         gap: 2em;
     }
+    .menu-second { 
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-widht:1079px) { 
+   nav .menu-second { 
+        display: flex;
+        flex-wrap:wrap ;
+    }
 }
 
 @media (max-width:655px){
@@ -17,6 +55,15 @@
     }
 }
 
+@media (max-width:655px){ 
+    .menu input{ 
+        width: 310px;
+    }
+  
+  
+}
+
+
 @media (max-width:450px) { 
     .info-creator p{ 
         text-align: center;
@@ -24,6 +71,7 @@
     }
 
 }
+
 
 @media (max-width:700px) { 
     .info-arma-yu-pc { 
@@ -63,4 +111,8 @@
         width: 100%;
     }
 }
+
+
+
+    
 

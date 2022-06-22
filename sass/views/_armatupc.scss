@@ -1,0 +1,19 @@
+// Modificacines especificas de cada pagina
+
+.info-arma-yu-pc { 
+    padding: 24px 120px;
+
+    .title-arma-tu-pc { 
+        text-align: center;
+        font-size: 3em;
+        color: $color;
+    }
+    
+    .p-arma-tu-pc { 
+        font-size: 2.5em;
+        padding: 20px;
+        font-family: $tipografia-secundario;
+        color: aliceblue;
+    }
+}
+
