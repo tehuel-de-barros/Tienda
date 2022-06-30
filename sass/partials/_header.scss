@@ -3,7 +3,8 @@ header {
     display: flex;
     align-items: center;
     gap: 0.25em;
-    padding: 24px 120px;
+    // padding: 24px 120px;
+    @include padding (24px,120px,24px,120px)
     background-color: $principal;
     justify-content:space-between;
 
@@ -11,8 +12,9 @@ header {
     input { 
         display: flex;
         list-style:none;
-        width: 505px; 
-        height: 50px;   
+        // width: 505px; 
+        // height: 50px;   
+        @include size(505px,50px);
     }
 }
 

@@ -1,7 +1,20 @@
 /* colors fondo */
 /* colors letra */
+.color-principal {
+  color: #000000; }
+
+.color-secundario {
+  color: #4BB3FD; }
+
+.color-terciario {
+  color: rgba(255, 30, 0, 0.332); }
+
+.color-cuarto {
+  color: #FFFFFF; }
+
 /* colors letra */
 /* tipo de letra */
+/* mapas */
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +33,10 @@ header {
   display: flex;
   align-items: center;
   gap: 0.25em;
-  padding: 24px 120px;
+  padding-top: 24px;
+  padding-right: 120px;
+  padding-bottom: 24px;
+  padding-left: 120px;
   background-color: #171717;
   justify-content: space-between; }
   header .menu input {
@@ -40,14 +56,18 @@ main {
   background-color: #171717; }
   main .navegation {
     background-color: #FF680A;
-    padding: 24px 120px; }
-    main .navegation .menu-second a {
-      color: #000000; }
+    padding-top: 24px;
+    padding-right: 120px;
+    padding-bottom: 24px;
+    padding-left: 120px; }
     main .navegation .menu-second li a {
       transition-duration: 1.2s;
-      padding: 0 20px; }
+      padding-top: 0;
+      padding-right: 20px;
+      padding-bottom: 0;
+      padding-left: 20px; }
     main .navegation .menu-second li a:hover {
-      color: white;
+      color: #FFFFFF;
       font-size: 1.2em; }
   main .title {
     font-size: 2em;
@@ -61,12 +81,10 @@ main {
     font-size: 3em;
     align-items: center;
     justify-content: space-around; }
-  main .hardware {
-    color: #000000; }
-    main .hardware img {
-      transition-duration: 0.8s; }
-      main .hardware img:hover {
-        transform: scale(1.05); }
+  main .hardware img {
+    transition-duration: 0.8s; }
+    main .hardware img:hover {
+      transform: scale(1.05); }
   main .img {
     width: 100%; }
 

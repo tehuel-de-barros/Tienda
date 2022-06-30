@@ -8,7 +8,20 @@
     $color:#000000;
     $color-secundario:#4BB3FD;
     $color-terciario:rgba(255, 30, 0, 0.332);
+    
 
+    $colortext:(
+        color-principal:#000000,
+        color-secundario:#4BB3FD,
+        color-terciario:rgba(255, 30, 0, 0.332),
+        color-cuarto:#FFFFFF
+    );
+    
+    @each $key, $val in $colortext {
+        .#{$key} { 
+            color: #{$val};
+        }
+    }
     /* colors letra */
 
     $tamaño-letra:4em;
@@ -17,4 +30,27 @@
 
     $tipografia-principal:gadugib;
     $tipografia-secundario:roboto; 
+
+
+    /* mapas */ 
+
+    $componente: (
+        grafica: 'grafica', 
+        procesador: 'procesadpr', 
+        fuente: 'fuente', 
+        gabinete: 'gabinete', 
+        mother: 'mother', 
+        ram: 'ram', 
+        cooler: 'cooler', 
+        almacenamiento: 'almacenamiento'
+    );   
+
+    $periferico: ( 
+        mouse: 'mouse',
+        teclado: 'teclado',
+        auris: 'auris',
+        mousepad: 'maousepad',
+        monitor: 'monitor',
+        parlantes:'parlantes'
+    );
 
