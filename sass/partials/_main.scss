@@ -19,7 +19,7 @@ main{
                 }
                 
                 & a:hover { 
-                    color:map-get($colortext,           color-cuarto);
+                    color:map-get($colortext,color-cuarto);
                     font-size: 1.2em; 
                 }
             }

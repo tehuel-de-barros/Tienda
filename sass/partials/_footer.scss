@@ -11,9 +11,7 @@
     }
     
     .contactanos__link { 
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    @extend .contactanos    
     }
 }
 

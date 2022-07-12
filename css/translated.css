@@ -90,15 +90,11 @@ main {
 
 footer {
   background-color: #FF680A; }
-  footer .contactanos {
+  footer .contactanos, footer .contactanos__link {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 3em; }
-  footer .contactanos__link {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
 
 @media (max-width: 1079px) {
   main nav .menu-second {
