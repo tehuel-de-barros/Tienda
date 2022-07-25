@@ -6,13 +6,13 @@
     /* colors letra */
 
     $color:#000000;
-    $color-secundario:#4BB3FD;
-    $color-terciario:rgba(255, 30, 0, 0.332);
+    $color-secundario:#999;
+    $color-terciario:#3c4858;
     
 
     $colortext:(
         color-principal:#000000,
-        color-secundario:#4BB3FD,
+        color-secundario:#999,
         color-terciario:rgba(255, 30, 0, 0.332),
         color-cuarto:#FFFFFF
     );
@@ -22,35 +22,18 @@
             color: #{$val};
         }
     }
-    /* colors letra */
+    /* Tamaño + espacios */
 
     $tamaño-letra:4em;
+    $tamaño-chico:5px;
+    $tamaño-medio:7px;
+    $tamaño-medio-grande:10px;
+    $tamaño-grande:15px;
+    $tamaño-muy-grande:18px;
 
     /* tipo de letra */
 
     $tipografia-principal:gadugib;
     $tipografia-secundario:roboto; 
 
-
-    /* mapas */ 
-
-    $componente: (
-        grafica: 'grafica', 
-        procesador: 'procesadpr', 
-        fuente: 'fuente', 
-        gabinete: 'gabinete', 
-        mother: 'mother', 
-        ram: 'ram', 
-        cooler: 'cooler', 
-        almacenamiento: 'almacenamiento'
-    );   
-
-    $periferico: ( 
-        mouse: 'mouse',
-        teclado: 'teclado',
-        auris: 'auris',
-        mousepad: 'maousepad',
-        monitor: 'monitor',
-        parlantes:'parlantes'
-    );
 
